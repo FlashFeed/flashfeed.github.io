@@ -1,0 +1,11 @@
+---
+layout: default
+title: //Flashfeed.co
+home-hero: //i.imgur.com/YduWiRy.jpg
+body-class: home
+---
+<div class="blurb">
+	{% capture blurb-include %}{% include blurb.md %}{% endcapture %}
+	{{ blurb-include | markdownify }}
+	<br />
+</div>

@@ -1,0 +1,12 @@
+name: Nick Brooks
+repository: flashfeed/flashfeed.github.io.
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+exclude:
+  - package.json
+  - _dev
+  - node_modules
+  - gulpfile.js
+  - readme.md
